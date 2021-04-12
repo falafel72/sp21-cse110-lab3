@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>Kyle Hu's Journal</title>
+        <meta name="description" content="Journal entries">
+        <link rel="icon" type="image/png" href="images/read-book.png"> <!-- TODO: ADD FAVICON LINK HERE -->
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#day1">Day 1</a>
+                <a href="#day2">Day 2</a>
+                <a href="#day3">Day 3</a>
+            </nav>
+            <details>
+                <summary> About me </summary>
+                <p> I'm a computer engineering student at UCSD. I need text in here since this is due in three hours and I have other things to work on. </p>
+            </details>
+        </header>
+        <hr>
+        <main>
+            <h1>Kyle's Journal</h1> 
+            <section>
+                <h2 id="day1">April 9th 2021</h2>
+
+                <h3> Thoughts </h3>
+                <p> Failed a driver's test today. Apparently my turning and braking was not great. Might be a nerves thing.
+                    <br>
+                    I think I'll get it next time, though I'm a little frustrated. </p>
+
+                <h3> Highlights </h3>
+                <ol>
+                    <li> Had a corn dog for the first time in a while </li>
+                    <li> Finished doing my taxes </li>
+                    <li> Finished quizzes for both CSE 101 and BILD 3 </li>
+                </ol>
+
+                <h3> Lowlights </h3>
+                <ol>
+                    <li> Failed a driver's test </li>
+                    <li> Didn't have the energy to cook </li>
+                </ol>
+
+                <h3> To Do List </h3>
+                <ul>
+                    <li> <strong>Take out the trash</strong> </li>
+                    <li> Meal prep for the next couple of days </li>
+                    <li> Finish the CSE 110 lab </li>
+                </ul>
+
+                <h3> Cool video </h3>
+                <video width="320" height="180" controls>
+                   <source src="video/sea-lion.mp4" type="video/mp4">
+                   Error loading video
+                </video>
+            </section>
+            <hr>
+            <section>
+                <h2 id="day2">April 10th 2021</h2>
+
+                <h3> Thoughts </h3>
+                <p> Didn't do much today, apart from read some books and practice bass. Break days are always good though. </p>
+
+                <h3> Highlights </h3>
+                <ol>
+                    <li> Enjoying <b>IT</b> (the book) a lot </li>
+                    <li> I made chicken adobo and it turned out pretty well </li>
+                </ol>
+
+                <h3> Lowlights </h3>
+                <ol>
+                    <li> Woke up late (around 12) </li>
+                    <li> Spent too much time watching youtube videos </li>
+                </ol>
+
+                <h3> To Do List </h3>
+                <ul>
+                    <li> Finish the <i>CSE 110</i> lab </li>
+                    <li> Do the <i>CSE 110</i> review quiz </li>
+                    <li> Watch the <i>BILD 3</i> lecture </li>
+                </ul>
+
+                <h3> A meme I made for a friend </h3>
+                <div><img src="images/alex-poster.png" alt="a meme I made for my friend" width=500></div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="day3">April 11th 2021</h2>
+
+                <h3> Thoughts </h3>
+                <p> Feeling a lot more productive today. </p>
+
+                <h3> Highlights </h3>
+                <ol>
+                    <li> Finished CSE 110 lab </li>
+                    <li> Cooked some more food today, paprika goes well with cod </li>
+                </ol>
+
+                <h3> Lowlights </h3>
+                <ol>
+                    <li> Need to break the youtube binging habit </li>
+                    <li> <em>I have a presentation tomorrow that I forgot about and have not started prepping for </em></li>
+                </ol>
+
+                <h3> To Do List </h3>
+                <ul>
+                    <li> Watch BILD 3 lecture </li>
+                    <li> Start CSE 101 homework </li>
+                    <li> Start CSE 131 homework </li>
+                </ul>
+
+                <h3> A good song </h3>
+                <audio controls>
+                    <source src="audio/tank.mp3" type="audio/mpeg">
+                    Error loading audio.
+                </audio>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <form>
+                <fieldset>
+                    <legend> New entry: </legend>
+                    <label for="date">Date: </label>
+                    <input type="date" name="date"><br><br>
+                    <label for="thoughts">Thoughts: </label><br>
+                    <textarea name="thoughts"></textarea><br><br>
+                    <label for="mood">Mood score: </label>
+                    <input list="scores" name="mood"><br><br>
+                    <datalist id="scores">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                    </datalist>
+                    <label for="word">Word of the day: </label>
+                    <input type="text" name="word">
+
+                    <p> Stuff done today: </p>
+                    <input type="checkbox" name="stuff1">
+                    <label for="stuff1"> Homework </label><br>
+                    <input type="checkbox" name="stuff2">
+                    <label for="stuff2"> Chores </label><br>
+                    <input type="checkbox" name="stuff3">
+                    <label for="stuff3"> Exercise </label><br>
+
+                    <p> Weather: </p>
+                    <input type="radio" name="weather">
+                    <label for="weather1"> Sunny </label><br>
+                    <input type="radio" name="weather">
+                    <label for="weather2"> Rainy </label><br>
+                    <input type="radio" name="weather">
+                    <label for="weather3"> Cloudy </label><br>
+                    <input type="radio" name="weather">
+                    <label for="weather4"> Other </label><br>
+                    <br><br>
+
+                    <label for="food">What you had for breakfast: </label>
+                    <select name="food">
+                        <option value="pancakes">Pancakes</option>
+                        <option value="waffles">Waffles</option>
+                        <option value="omlette">Omlette</option>
+                        <option value="congee">Congee</option>
+                    </select><br><br>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </footer>
+    </body>
+</html>
