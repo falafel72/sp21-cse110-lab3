@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang=”en-us”>
     <head>
         <title>Kyle Hu's Journal</title>
         <meta name="description" content="Journal entries">
@@ -123,11 +123,11 @@
                 <fieldset>
                     <legend> New entry: </legend>
                     <label for="date">Date: </label>
-                    <input type="date" name="date"><br><br>
+                    <input type="date" id="date"><br><br>
                     <label for="thoughts">Thoughts: </label><br>
-                    <textarea name="thoughts"></textarea><br><br>
+                    <textarea id="thoughts"></textarea><br><br>
                     <label for="mood">Mood score: </label>
-                    <input list="scores" name="mood"><br><br>
+                    <input list="scores" id="mood"><br><br>
                     <datalist id="scores">
                         <option value="1">
                         <option value="2">
@@ -136,29 +136,29 @@
                         <option value="5">
                     </datalist>
                     <label for="word">Word of the day: </label>
-                    <input type="text" name="word">
+                    <input type="text" id="word">
 
                     <p> Stuff done today: </p>
-                    <input type="checkbox" name="stuff1">
+                    <input type="checkbox" id="stuff1">
                     <label for="stuff1"> Homework </label><br>
-                    <input type="checkbox" name="stuff2">
+                    <input type="checkbox" id="stuff2">
                     <label for="stuff2"> Chores </label><br>
-                    <input type="checkbox" name="stuff3">
+                    <input type="checkbox" id="stuff3">
                     <label for="stuff3"> Exercise </label><br>
 
                     <p> Weather: </p>
-                    <input type="radio" name="weather">
+                    <input type="radio" id="weather">
                     <label for="weather1"> Sunny </label><br>
-                    <input type="radio" name="weather">
+                    <input type="radio" id="weather">
                     <label for="weather2"> Rainy </label><br>
-                    <input type="radio" name="weather">
+                    <input type="radio" id="weather">
                     <label for="weather3"> Cloudy </label><br>
-                    <input type="radio" name="weather">
+                    <input type="radio" id="weather">
                     <label for="weather4"> Other </label><br>
                     <br><br>
 
                     <label for="food">What you had for breakfast: </label>
-                    <select name="food">
+                    <select id="food">
                         <option value="pancakes">Pancakes</option>
                         <option value="waffles">Waffles</option>
                         <option value="omlette">Omlette</option>
