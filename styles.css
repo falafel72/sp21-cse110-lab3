@@ -1,0 +1,46 @@
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-color: #4ccfb9;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+video, img, audio {
+    display: block;
+    margin: auto;
+}
+
+section {
+    border-style: dashed;
+    border-color: rgb(90,110,98);
+    border-width: 0.4ch;
+    border-radius: 1cm;
+    padding: 0.5% 1% 0.5% 1%;
+    background-color: hsl(145,41%,86%);
+}
+
+ul li {
+    color: purple;
+}
+
+section > h2 {
+    text-align: right;
+    padding-top: 0.5em;
+    padding-right: 0.6em;
+    padding-bottom: 0.02em;
+    padding-left: 0.2em;
+    margin-top: 3mm;
+    margin-right: 0mm;
+    margin-bottom: 1mm;
+    margin-left: 0mm;
+}
+
+div.diary-content {
+    margin: 10px 10px 10px 10px;
+}
