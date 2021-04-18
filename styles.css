@@ -6,15 +6,28 @@ body {
     background-color: #4ccfb9;
 }
 
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #5a69e8;
+    }
+}
+
 h1 {
     text-align: center;
     text-decoration: underline;
 }
 
-video, img, audio {
+video {
     display: block;
     margin: auto;
+    position: relative;
 }
+
+h3 ~ div {
+    display: inline-block;
+    position: static;
+}
+
 
 section {
     border-style: dashed;
@@ -23,6 +36,8 @@ section {
     border-radius: 1cm;
     padding: 0.5% 1% 0.5% 1%;
     background-color: hsl(145,41%,86%);
+    min-width: 400px;
+    height: 80%;
 }
 
 ul li {
@@ -44,3 +59,34 @@ section > h2 {
 div.diary-content {
     margin: 10px 10px 10px 10px;
 }
+
+nav > a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    color: red;
+}
+
+nav > a:active {
+    color: #f55656;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+[href="#day3"] {
+    font-weight: 1000;
+}
+
+summary + p {
+    color: green;
+    width: 50%;
+    margin: auto;
+
+}
+
